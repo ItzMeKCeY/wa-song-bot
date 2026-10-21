@@ -1,0 +1,22 @@
+{
+  "name": "dxz",
+  "version": "1.0.1",
+  "description": "Base by DanuZz - WhatsApp channel song sender (case type)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "DanuZz",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.13.4",
+    "bail": "npm:baileyz@^1.0.7",
+    "chalk": "^4.1.2",
+    "pino": "^7.0.5",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
