@@ -98,12 +98,18 @@ module.exports = async (Dxz, m) => {
 
                     // 5. caption (edit me!)
                     const caption =
-`*🪸 ${global.namabot}*
+`🗂️ ꜱᴏɴɢ ➜  \`${info.title}\`
 
-> _*🧃 Title*_ : \`${info.title}\`
-> _*🎤 Channel*_ : \`${info.channel || 'Unknown'}\`
-> _*🪺 Duration*_ : \`${info.duration || 'Unknown'}\`
-> _*Thanks For Checking Our Bot!! 😌✨*_`;
+⏰ ᴅᴜʀᴀᴛɪᴏɴ ➜ \`${info.duration || 'Unknown'}\`
+
+> *Best Sinhala Songs 💆🏻‍♂️🤍*❞
+
+> *𝐑𝐞𝐚𝐜𝐭 එකක් දාගෙන යන්න ලස්සන ළමයෝ 🥹💗*
+
+ᴜꜱᴇ ʜᴇᴀᴅᴩʜᴏɴᴇꜱ ꜰᴏʀ ʙᴇꜱᴛ ᴇxᴩᴇʀɪᴇɴᴄᴇ... 🎧🤍
+
+> *(${info.channel || 'Unknown'})*
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴄᴇʏ`;
 
                     // 6. send to channel: preview image, then audio
                     await Dxz.sendMessage(channelJid, {
